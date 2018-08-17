@@ -8,14 +8,15 @@
 
 # Questions
 
-### What is React?
+### General
+What is React?
 <details>
   <summary>Answer here</summary>
   A javascript library for building user interfaces.
 </details>
 <br>
 
-### What are the 3 main design concepts of React?
+What are the 3 main design concepts of React?
 <details>
   <summary>Answer here</summary>
   <ul> Components </ul>
@@ -39,21 +40,41 @@ Why would you use a Functional vs a Class Component.
 
 
 ### Lifecycle
-    What are the phases of the React Lifecycle
-      * initializing (getDefaultProps, getInitalState) define defaults and intial values for this.props and this.state
-      * mounting (componentDidMount) components are inserted into the DOM
-      * updating - component properties and state are updated
-      * unmounting (componentDidUnmount) - component is unmounted from the DOM.
+
+What are the phases of the React Lifecycle
+
+<details>
+  <summary>Answer here</summary>
+  <ul>initializing (getDefaultProps, getInitalState) define defaults and intial values for this.props and this.state </ul>
+  <ul>mounting (componentDidMount) components are inserted into the DOM. </ul>
+  <ul>updating - component properties and state are updated. </ul>
+  <ul>unmounting (componentDidUnmount) - component is unmounted from the DOM.</ul>
+</details>
+<br>
+
 
 ### Rendering
-      What are the 3 things that can cause re-rendering.
 
-      * when a parent prop getting passed to a child is changed.
-      * when any state changes.
-      * when a component gets rendered to the dom for the first time.
+What are the 3 things that can cause re-rendering.
+
+<details>
+  <summary>Answer here</summary>
+  <ul> when a parent prop getting passed to a child is changed. </ul>
+  <ul> when any state changes </ul>
+  <ul> when a component gets rendered to the dom for the first time </ul>
+</details>
+<br>
 
 ### State
-  * Describe the React state data structre (object)
+
+Describe the React state data structure
+<details>
+  <summary>Answer here</summary>
+  <ul> Object! </ul>
+
+</details>
+<br>
+
 
 
 
