@@ -33,6 +33,7 @@ Why would you use a Functional vs a Class Component.
   <summary>Answer here</summary>
   <ul>Functional Components are lighter weight, simply rendering the component. </ul>
   <ul>Class Components are Stateful. </ul>
+  <ul>Class component mush have a render function</ul>
   <ul>Class Components are extensible. </ul>
 </details>
 <br>
