@@ -101,6 +101,15 @@ Explain in detail how mapStateToDispatch functions
 <details>
   <summary>Answer Here</summary>
   <ul>you can define a function called mapDispatchToProps() that receives the dispatch() method and returns callback props that you want to inject into the presentational component</ul>  
+  <ul>```const mapDispatchToProps = dispatch =>
+  bindActionCreators(
+    {
+      createPost
+    },
+    dispatch
+  );
+    ```
+  </ul>
 </details>
 <br>
 
