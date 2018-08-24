@@ -77,7 +77,64 @@ Describe the React state data structure
 <br>
 
 
+### React-Redux
 
+What are the 3 principles of React-Redux and how do they relate to each other
+<details>
+  <summary>Anser here</summary>
+  <ul>Store - object that brings actions and reducers together; stores the STATE of our app</ul>
+  <ul>Action - object that informs reducer how to change the state</ul>
+  <ul>Reducer - pure function that takes previous state and an argument to return a new state.</ul>
+</details>
+<br>
+
+What is the purpose of mapStateToProps and mapStateToDispatch? How do you connect them?
+<details>
+  <summary>Anser here</summary>
+  <ul>mapStateToProps allows the state held in a store file to be sent to a component as props</ul>
+  <ul>mapToDispatch is similar but maps the actions to the component</ul>
+  <ul>The mapping to components is linked to the component using `connect`from 'react-reduc' </ul>
+</details>
+<br>
+
+### React-Router
+Given the following route, what resource will the user be shown when visiting the site root if authenticated/logged in.
+```<Switch>
+  <Route path="/" render={() => (
+  loggedIn ? (
+    <Redirect to="/dashboard"/>
+  ) : (
+    <PublicHomePage/>  )
+)}/>
+  <Route exact path="/dashboard" render={() => {
+    return <ProfilesHome />
+  }}/>
+</Switch>
+```
+
+<details>
+  <summary>Anser here</summary>
+  <ul>ProfilesHome </ul>
+<br>
+<br>
+
+
+Fix this function so that it works. (hint, there are 2 items that need fixing.)
+
+```import React from 'React'
+import { Route, Redirect } from 'react-router-dom'
+
+const Navigation = () => {
+  return (
+    <Link to="/login" className="nav-link">Login</Link>
+  )
+}
+
+export default
+```
+
+  
+  
 
 
 
