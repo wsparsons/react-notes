@@ -115,6 +115,7 @@ Given the following route, what resource will the user be shown when visiting th
 <details>
   <summary>Anser here</summary>
   <ul>ProfilesHome </ul>
+ </details>
 <br>
 <br>
 
