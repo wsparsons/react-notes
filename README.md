@@ -113,7 +113,7 @@ Given the following route, what resource will the user be shown when visiting th
 ```
 
 <details>
-  <summary>Anser here</summary>
+  <summary>Answer here</summary>
   <ul>ProfilesHome </ul>
  </details>
 <br>
@@ -133,9 +133,15 @@ const Navigation = () => {
 
 export default
 ```
+<details>
+  <summary>Answer here</summary>
+  <ul>Add Link to react-router-dom import </ul>
+  <ul> export Navigation </ul>
+ </details>
+<br>
+<br>
 
-  
-  
+
 
 
 
