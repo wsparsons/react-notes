@@ -93,7 +93,13 @@ What is the purpose of mapStateToProps and mapStateToDispatch? How do you connec
   <summary>Anser here</summary>
   <ul>mapStateToProps allows the state held in a store file to be sent to a component as props</ul>
   <ul>mapToDispatch is similar but maps the actions to the component</ul>
-  <ul>The mapping to components is linked to the component using `connect`from 'react-reduc' </ul>
+  <ul>The mapping to components is linked to the component using `connect`from 'react-redux' </ul>
+</details>
+
+Explain in detail how mapStateToDispatch functions
+<details>
+  <summary>Answer Here</summary>
+  <ul>you can define a function called mapDispatchToProps() that receives the dispatch() method and returns callback props that you want to inject into the presentational component</ul>  
 </details>
 <br>
 
