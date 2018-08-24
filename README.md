@@ -95,6 +95,7 @@ What is the purpose of mapStateToProps and mapStateToDispatch? How do you connec
   <ul>mapToDispatch is similar but maps the actions to the component</ul>
   <ul>The mapping to components is linked to the component using `connect`from 'react-redux' </ul>
 </details>
+<br>
 
 Explain in detail how mapStateToDispatch functions
 <details>
