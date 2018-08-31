@@ -116,7 +116,7 @@ Explain in detail how mapStateToDispatch functions
 ### React-Router
 Given the following route, what resource will the user be shown when visiting the site root if authenticated/logged in.
 ```<Switch>
-  <Route path="/home" render={() => (
+  <Route path="/" render={() => (
   loggedIn ? (
     <Redirect to="/dashboard"/>
   ) : (
@@ -158,8 +158,104 @@ export default
 <br>
 
 
+### HTML/CSS
 
+What are the 3 ways to apply css styles to a webpage?
+<details>
+  <summary>Answer here</summary>
+  <ul>Use inline style attribute</ul>
+  <ul>Use style block in head of html </ul>
+  <ul>Load external css file using LINK tag </ul>
+ </details>
+<br>
+<br>
 
+Name 3 self closing HTML tags:
+<details>
+  <summary>Answer here</summary>
+  <ul>IMG</ul>
+  <ul>INPUT</ul>
+  <ul>LINK</ul>
+ </details>
+<br>
+<br>
+
+Desribe the different kinds of selectors? How would you target these elements on a CSS page?
+<details>
+  <summary>Answer here</summary>
+  <ul>You can use tag references ex. p, body, main,</ul>
+  <ul>class attributes  ' .nav-item, .button,</ul>
+  <ul>id attribute s #name, #home, #1</ul>
+ </details>
+ <br>
+<br>
+ 
+ What does HTML and CSS stand for?
+<details>
+  <summary>Answer here</summary>
+  <ul>Hypertext Markup Language</ul>
+  <ul>cascading style sheet </ul>
+ </details>
+    <br>
+  <br>
+    
+ How is the HTML document structured?
+ <details>
+  <summary>Answer here</summary>
+  <ul>There's always an opening and closing HTML tag,</ul>
+  <ul>HEAD tag: meta, stylesheets, links,  </ul>
+    <ul>BODY tag: contains majority of display, a, p, body, h1, h2, h3</ul>
+    <ul> HEAD and BODY are within HTML tags</ul>
+ </details>
+ <br>
+<br>
+    
+ What element(s) will the following selection effect, and what will be the resulting action/effect?
+
+```
+nav#navigation ul li a:hover {
+  color: blue;
+}
+```
+ <details>
+  <summary>Answer here</summary>
+  <ul>It will make the navigation list element blue on hover</ul>
+ </details>
+
+What is the purpose of the “defer” attribute and what tag should it be invoked in?
+<details>
+  <summary>Answer here</summary>
+  <ul>It is in the HEAD sections within a script tag.  Causes JS to load after DOM loads</ul>
+ </details>
+
+How does CSS style overring work?
+<details>
+  <summary>Answer here</summary>
+  <ul>inline style > style tags > external sheets</ul>
+  <ul> within external sheet: ID > class > tags</ul>
+  <ul>If two or more tags are equal, the last one on page is loaded</ul>
+ </details>
+ 
+ What is the difference between semantic and non-semantic html tags?
+ <details>
+  <summary>Answer here</summary>
+  <ul>A semantic element clearly describes its meaning to both the browser and the developer.
+
+Examples of non-semantic elements: <div> and <span> - Tells nothing about its content.
+
+Examples of semantic elements: <form>, <table>, and <article> - Clearly defines its content.</ul>
+ </details>
+  <br>
+  <br>
+  
+ What is the difference between SPAM and DIV?
+ <details>
+  <summary>Answer here</summary>
+  <ul>The difference is that ```span``` gives the output with ```display: inline``` and ```div``` gives the output with ```display: block```.span is used when we need our elements to be shown in a line, one after the other.</ul>
+  </details>
+  
+  
+  
 
 ### Future Question Topics
 Props
