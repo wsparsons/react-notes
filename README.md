@@ -246,12 +246,8 @@ How does CSS style overring work?
  <details>
   <summary>Answer here</summary>
   <ul>A semantic element clearly describes its meaning to both the browser and the developer.
- <br>
-  <br>
-    
-Examples of non-semantic elements: <div> and <span> - Tells nothing about its content.
-
-Examples of semantic elements: <form>, <table>, and <article> - Clearly defines its content.</ul>
+    Examples of non-semantic elements: <div> and <span> - Tells nothing about its content.
+    Examples of semantic elements: <form>, <table>, and <article> - Clearly defines its content.</ul>
  </details>
   <br>
   <br>
