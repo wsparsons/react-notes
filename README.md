@@ -253,7 +253,7 @@ How does CSS style overring work?
   <br>
     
     
- What is the difference between SPAM and DIV?
+ What is the difference between SPAN and DIV?
  <details>
   <summary>Answer here</summary>
   <ul>The difference is that SPAN gives the output with display: inline and DIV gives the output with display: block. Span is used when we need our elements to be shown in a line, one after the other.</ul>
