@@ -116,7 +116,7 @@ Explain in detail how mapStateToDispatch functions
 ### React-Router
 Given the following route, what resource will the user be shown when visiting the site root if authenticated/logged in.
 ```<Switch>
-  <Route path="/" render={() => (
+  <Route path="/home" render={() => (
   loggedIn ? (
     <Redirect to="/dashboard"/>
   ) : (
