@@ -221,13 +221,17 @@ nav#navigation ul li a:hover {
   <summary>Answer here</summary>
   <ul>It will make the navigation list element blue on hover</ul>
  </details>
-
+ <br>
+  <br>
+    
 What is the purpose of the “defer” attribute and what tag should it be invoked in?
 <details>
   <summary>Answer here</summary>
   <ul>It is in the HEAD sections within a script tag.  Causes JS to load after DOM loads</ul>
  </details>
-
+ <br>
+  <br>
+    
 How does CSS style overring work?
 <details>
   <summary>Answer here</summary>
@@ -235,12 +239,16 @@ How does CSS style overring work?
   <ul> within external sheet: ID > class > tags</ul>
   <ul>If two or more tags are equal, the last one on page is loaded</ul>
  </details>
- 
+  <br>
+  <br>
+    
  What is the difference between semantic and non-semantic html tags?
  <details>
   <summary>Answer here</summary>
   <ul>A semantic element clearly describes its meaning to both the browser and the developer.
-
+ <br>
+  <br>
+    
 Examples of non-semantic elements: <div> and <span> - Tells nothing about its content.
 
 Examples of semantic elements: <form>, <table>, and <article> - Clearly defines its content.</ul>
@@ -253,7 +261,9 @@ Examples of semantic elements: <form>, <table>, and <article> - Clearly defines 
   <summary>Answer here</summary>
   <ul>The difference is that ```span``` gives the output with ```display: inline``` and ```div``` gives the output with ```display: block```.span is used when we need our elements to be shown in a line, one after the other.</ul>
   </details>
-  
+   <br>
+  <br>
+    
   
   
 
