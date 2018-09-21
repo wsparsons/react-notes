@@ -260,9 +260,79 @@ How does CSS style overring work?
   </details>
    <br>
   <br>
-    
-  
-  
+
+
+### GIT and GITHUB
+<hr>
+
+What is the difference between Git and Github?
+<details> 
+  <summary>Answer here</summary>
+  <ul>Git is a revision control system, a tool to manage your source code history. </ul>
+  <ul>GitHub is a hosting service for Git repositories.</ul>
+  <ul>So they are not the same thing: Git is the tool, GitHub is the service for projects that use Git.</ul>
+  </details>
+   <br>
+  <br>
+
+
+What is the difference between forking and cloning?
+<details> 
+  <summary>Answer here</summary>
+  <ul>A fork is a copy of the repository, it allows you to freely make changes without affecting the original project</ul>
+  <ul>A clone is when you are connecting that version of the code. You can simply do it with a command line: git clone url_of_the_clone </ul>
+  <ul></ul>
+  </details>
+   <br>
+  <br>
+
+What is the difference between git pull and git fetch?
+<details> 
+  <summary>Answer here</summary>
+  <ul>GIT pull command pulls new changes or commits from a particular branch from your central repository and updates your target branch in your local repository while GIT fetch pulls all new commits from the desired branch and stores it in a new branch in your local repository.</ul>
+  <ul>Git pull = git fetch + git merge</ul>
+  </details>
+   <br>
+  <br>
+
+What is Git?
+<details> 
+  <summary>Answer here</summary>
+  <ul>GIT is a distributed version control system and source code management (SCM) system.</ul>
+  <ul>It can track changes to a file</ul>
+  <ul>It allows you to revert back to any particular change</ul>
+  <ul>Its distributed architecture provides many advantages over other Version Control Systems</ul>
+  </details>
+   <br>
+  <br>
+
+What are the advantages of using Git?
+<details> 
+  <summary>Answer here</summary>
+  <ul>Data redundancy and replication</ul>
+  <ul>High availability</ul>
+  <ul>Collaboration friendly</ul>
+  </details>
+   <br>
+  <br>
+
+What is head in Git? How many head can be created in a repository?
+<details> 
+  <summary>Answer here</summary>
+  <ul>A ‘head’ is simply a reference to a commit object. In every repository, there is a default head referred as “Master”.</ul>
+  <ul>A repository can contain any number of heads.</ul>
+  </details>
+   <br>
+  <br>
+
+
+<details> 
+  <summary>Answer here</summary>
+  <ul></ul>
+  <ul></ul>
+  </details>
+   <br>
+  <br>
 
 ### Future Question Topics
 Props
